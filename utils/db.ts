@@ -94,6 +94,16 @@ export const textGenModels: Model[] = [{
     name: 'starling-lm-7b-beta',
     provider: 'workers-ai',
     type: 'chat'
+}, {
+    id: '@hf/thebloke/deepseek-coder-6.7b-instruct-awq',
+    name: 'deepseek-coder-6.7b-instruct-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/meta/llama-3-8b-instruct',
+    name: 'llama-3-8b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
 }]
 
 export const imageGenModels: Model[] = [{
